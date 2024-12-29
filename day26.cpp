@@ -26,6 +26,7 @@ int main() {
         unordered_map<char, int> freqMap;
 
         for (char c : s) {
+            
             freqMap[c]++;
         }
 
